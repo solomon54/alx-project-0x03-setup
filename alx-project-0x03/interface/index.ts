@@ -12,6 +12,9 @@ interface ButtonProps {
     action?: () => void
 }
 
-
+interface PageRouteProps {
+  pageRoute: string
+}
+export default PageRouteProps;
 export  default LayoutProps;
 export  default ButtonProps;
